@@ -8,6 +8,16 @@
 *.so
 *.dll
 *.dylib
+*.lib
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Executables
+*.exe
+*.out
+*.app
 
 # Qt-es
 object_script.*.Release
@@ -47,3 +57,6 @@ compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
+
+.vs
+.idea
